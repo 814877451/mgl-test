@@ -1,6 +1,13 @@
-package com.mgl.test.spring;
+package com.mgl.test.pojo;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class UserPO {
+
+    UserPO() {
+        System.out.println("实例化user!");
+    }
 
     private String userId;
 

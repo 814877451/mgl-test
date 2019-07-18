@@ -1,5 +1,6 @@
 package com.mgl.test.spring;
 
+import com.mgl.test.pojo.UserPO;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -11,8 +12,8 @@ public class BeanConfigs {
      * initMethod ; 创建bean的时候执行的方法
      * destroyMethod : 销毁bean的时候执行的方法
      */
-    @Bean(name = "user", initMethod = "", destroyMethod = "")
+    /*@Bean(name = "user", initMethod = "", destroyMethod = "")
     public UserPO getUserPO() {
         return new UserPO();
-    }
+    }*/
 }

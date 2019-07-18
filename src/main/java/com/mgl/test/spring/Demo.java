@@ -1,8 +1,6 @@
 package com.mgl.test.spring;
 
-import org.apache.catalina.core.ApplicationContext;
-import org.apache.naming.factory.BeanFactory;
-import org.springframework.beans.factory.xml.XmlBeanFactory;
+import com.mgl.test.pojo.UserPO;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Demo {
